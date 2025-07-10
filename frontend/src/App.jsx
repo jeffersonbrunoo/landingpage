@@ -7,7 +7,7 @@ import { Separator } from './components/ui/separator'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from './components/ui/accordion'
 import { CheckCircle, Star, Clock, Shield, TrendingUp, Zap, Brain, Target, Users, Award, ChevronDown } from 'lucide-react'
 import { motion } from 'framer-motion'
-import telegramBotImage from './assets/telegram_bot_signal.png'
+import telegramBotImage from './assets/telegram.png'
 import aiTradingBotImage from './assets/ai_trading_bot_interface.png'
 
 function App() {
@@ -58,9 +58,9 @@ function App() {
             transition={{ delay: 0.2, duration: 0.8 }}
             className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight"
           >
-            Identifique o Melhor Setup de{' '}
+            Identifique o melhor Setup de{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
-              SHORT em Segundos
+              SHORT em segundos
             </span>
           </motion.h1>
           
@@ -70,7 +70,7 @@ function App() {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="text-xl md:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto"
           >
-            Resultados Consistentes e Decisões Inteligentes com a Força da Análise Técnica e a Precisão Inovadora da Inteligência Artificial
+            Resultados consistentes e decisões inteligentes com a força da análise técnica e a precisão inovadora da inteligência artificial
           </motion.p>
 
           <motion.div 
@@ -101,14 +101,14 @@ function App() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.8, duration: 0.8 }}
-            className="relative max-w-4xl mx-auto"
+            className="flex justify-center"
           >
             <img 
               src={telegramBotImage} 
               alt="Bot de Sinais no Telegram" 
-              className="w-full h-auto rounded-2xl shadow-2xl border border-white/20"
+              className="w-[300px] md:w-[400px] lg:w-[500px] h-auto mx-auto"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-2xl"></div>
+            
           </motion.div>
         </div>
       </motion.section>
@@ -124,10 +124,10 @@ function App() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-              Cansado de Perder Oportunidades e Dinheiro no Mercado de Futuros?
+              Cansado de perder oportunidades e dinheiro no mercado de Futuros?
             </h2>
             <p className="text-xl text-gray-300 max-w-4xl mx-auto">
-              Nós Temos a Solução Definitiva.
+              Nós temos a solução definitiva.
             </p>
           </motion.div>
 
@@ -202,7 +202,7 @@ function App() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-              Escolha a Ferramenta Perfeita para Sua Estratégia
+              Escolha a ferramenta perfeita para sua estratégia
             </h2>
             <p className="text-xl text-gray-300">TECH vs. IA</p>
           </motion.div>
@@ -218,7 +218,7 @@ function App() {
                 <CardHeader className="text-center">
                   <Badge className="w-fit mx-auto mb-4 bg-blue-600 text-white">TECH</Badge>
                   <CardTitle className="text-2xl text-white">Análise Técnica Pura</CardTitle>
-                  <CardDescription className="text-gray-300">Ideal para iniciantes e intermediários</CardDescription>
+                  <CardDescription className="text-gray-300">Bot Tech</CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div className="space-y-3">
@@ -236,11 +236,11 @@ function App() {
                     </div>
                     <div className="flex items-center text-gray-300">
                       <CheckCircle className="mr-3 h-5 w-5 text-green-400" />
-                      Ideal para iniciantes
+                      Os melhores indicadores do mercado
                     </div>
                     <div className="flex items-center text-gray-300">
                       <CheckCircle className="mr-3 h-5 w-5 text-green-400" />
-                      Suporte básico
+                      Suporte 24h
                     </div>
                   </div>
                   <Separator className="my-6" />
@@ -266,7 +266,7 @@ function App() {
                 <CardHeader className="text-center">
                   <Badge className="w-fit mx-auto mb-4 bg-purple-600 text-white">IA</Badge>
                   <CardTitle className="text-2xl text-white">Análise Técnica + IA Avançada</CardTitle>
-                  <CardDescription className="text-gray-300">Para traders experientes</CardDescription>
+                  <CardDescription className="text-gray-300">Bot Tech + IA</CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div className="space-y-3">
@@ -276,7 +276,7 @@ function App() {
                     </div>
                     <div className="flex items-center text-gray-300">
                       <CheckCircle className="mr-3 h-5 w-5 text-green-400" />
-                      Stop inteligente e dinâmico
+                      Sinais inteligentes e dinâmicos
                     </div>
                     <div className="flex items-center text-gray-300">
                       <CheckCircle className="mr-3 h-5 w-5 text-green-400" />
@@ -284,11 +284,11 @@ function App() {
                     </div>
                     <div className="flex items-center text-gray-300">
                       <CheckCircle className="mr-3 h-5 w-5 text-green-400" />
-                      Para traders experientes
+                      Sinais promissores com stop inteligente
                     </div>
                     <div className="flex items-center text-gray-300">
                       <CheckCircle className="mr-3 h-5 w-5 text-green-400" />
-                      Suporte premium e relatórios
+                      Suporte prioritário 24h
                     </div>
                   </div>
                   <Separator className="my-6" />
@@ -313,7 +313,7 @@ function App() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-              Veja o Que Nossos Traders Estão Conquistando
+              Veja o que nossos Traders estão conquistando
             </h2>
             <p className="text-xl text-gray-300">com os Bots TECH & IA!</p>
           </motion.div>
@@ -376,9 +376,9 @@ function App() {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-              Não Perca Esta Oportunidade Única
+              Não perca esta oportunidade única
             </h2>
-            <p className="text-xl text-gray-300 mb-12">Garante Sua Vaga Agora!</p>
+            <p className="text-xl text-gray-300 mb-12">Garanta sua vaga agora!</p>
 
             <div className="bg-gradient-to-r from-red-600/20 to-orange-600/20 border border-red-500/30 rounded-2xl p-8 mb-8">
               <h3 className="text-2xl font-bold text-red-400 mb-6">⚠️ Apenas 50 vagas abertas!</h3>
@@ -422,9 +422,9 @@ function App() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-              Bônus Exclusivos para Você
+              Bônus exclusivos para você
             </h2>
-            <p className="text-xl text-gray-300">Alavancar Seus Resultados!</p>
+            <p className="text-xl text-gray-300">Alavancar seus resultados!</p>
           </motion.div>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -436,15 +436,15 @@ function App() {
                 icon: Shield
               },
               {
-                title: "Mini-curso de Análise Técnica",
-                description: "Um curso rápido e prático sobre os fundamentos da análise técnica para futuros.",
+                title: "Mini-curso Operacional",
+                description: "Um curso rápido e prático de como realizar as operações no mercado.",
                 value: "R$ 297,00",
                 icon: TrendingUp
               },
               {
-                title: "Consultoria de 15 Minutos",
-                description: "Sessão individual com nossos especialistas para orientações personalizadas.",
-                value: "R$ 350,00",
+                title: "Planilha de gerenciamento de capital",
+                description: "Ferramenta prática para controlar seus investimentos e maximizar seus resultados.",
+                value: "R$ 159,00",
                 icon: Users
               }
             ].map((bonus, index) => (
@@ -478,7 +478,7 @@ function App() {
           >
             <div className="bg-gradient-to-r from-green-600/20 to-emerald-600/20 border border-green-500/30 rounded-2xl p-8">
               <h3 className="text-2xl font-bold text-green-400 mb-4">
-                Valor Total dos Bônus: R$ 844,00
+                Valor Total dos Bônus: R$ 653,00
               </h3>
               <p className="text-xl text-white font-semibold">
                 Mas ao adquirir seu plano hoje, você leva tudo isso DE GRAÇA!
@@ -498,14 +498,14 @@ function App() {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-              Sua Satisfação é Nossa Prioridade
+              Sua satisfação é nossa prioridade
             </h2>
-            <p className="text-xl text-gray-300 mb-12">Risco Zero para Você!</p>
+            <p className="text-xl text-gray-300 mb-12">Risco zero para você!</p>
 
             <Card className="bg-gradient-to-r from-blue-900/50 to-purple-900/50 border-blue-500/30">
               <CardHeader className="text-center">
                 <Shield className="h-16 w-16 text-blue-400 mx-auto mb-4" />
-                <CardTitle className="text-2xl text-white">Garantia Incondicional de 7 Dias</CardTitle>
+                <CardTitle className="text-2xl text-white">Garantia incondicional de 7 dias</CardTitle>
               </CardHeader>
               <CardContent className="text-center">
                 <p className="text-gray-300 text-lg mb-6">
@@ -513,7 +513,7 @@ function App() {
                   reembolsamos 100% do seu investimento, sem perguntas e sem burocracia.
                 </p>
                 <Badge className="bg-green-600 text-white text-lg px-6 py-2">
-                  Satisfeito ou Seu Dinheiro de Volta!
+                  Satisfeito ou seu dinheiro de volta!
                 </Badge>
               </CardContent>
             </Card>
@@ -532,16 +532,16 @@ function App() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-              Suas Dúvidas Respondidas
+              Suas dúvidas respondidas
             </h2>
-            <p className="text-xl text-gray-300">Tudo o Que Você Precisa Saber</p>
+            <p className="text-xl text-gray-300">Tudo o que você precisa saber</p>
           </motion.div>
 
           <Accordion type="single" collapsible className="space-y-4">
             {[
               {
                 question: "Os bots são compatíveis com a corretora MEXC ou outras plataformas?",
-                answer: "Sim, nossos bots fornecem os sinais de entrada, stop e alvo de forma universal. Você pode utilizá-los para operar em qualquer corretora de futuros que desejar, incluindo a MEXC, Binance, Bybit, OKX, entre outras."
+                answer: "Atualmente, nossos bots são otimizados exclusivamente para a corretora MEXC, onde garantimos maior precisão e performance. Os sinais de entrada, stop e take profit são gerados com base na estrutura de preços e liquidez dessa plataforma, o que assegura maior confiabilidade na execução das estratégias."
               },
               {
                 question: "Quais são as formas de pagamento aceitas?",
@@ -553,7 +553,7 @@ function App() {
               },
               {
                 question: "Preciso ter experiência prévia no mercado de futuros?",
-                answer: "Não é obrigatório ter experiência avançada. O Bot TECH é ideal para iniciantes, pois fornece sinais claros e diretos. Para o Bot IA, um conhecimento básico é recomendado para aproveitar ao máximo suas funcionalidades."
+                answer: "Não é obrigatório ter experiência avançada. O Bot TECH e o Bot IA fornecem sinais claros e diretos. Com todas as informações necessárias para realizar as análises e operações."
               },
               {
                 question: "Posso testar os bots antes de comprar?",
@@ -583,19 +583,19 @@ function App() {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-              Conheça a Mente por Trás dos Bots
+              Conheça a mente por trás dos Bots
             </h2>
-            <p className="text-xl text-gray-300 mb-12">Experiência e Resultados Comprovados</p>
+            <p className="text-xl text-gray-300 mb-12">Experiência e Resultados comprovados</p>
 
             <Card className="bg-slate-700/50 border-slate-600/50">
               <CardHeader className="text-center">
                 <Award className="h-16 w-16 text-yellow-400 mx-auto mb-4" />
-                <CardTitle className="text-2xl text-white">[Nome do Criador/Fundador]</CardTitle>
+                <CardTitle className="text-2xl text-white">Jackson Fritz</CardTitle>
                 <CardDescription className="text-gray-400">Fundador e Desenvolvedor Principal</CardDescription>
               </CardHeader>
               <CardContent className="text-center">
                 <p className="text-gray-300 text-lg mb-6">
-                  Com mais de X anos de experiência no mercado financeiro e expertise em trading de futuros, 
+                  Com mais de 10 anos de experiência no mercado financeiro e expertise em trading de futuros, 
                   análise técnica avançada e inteligência artificial. Ao longo de sua carreira, gerenciou 
                   portfólios que geraram milhões em resultados para investidores.
                 </p>
@@ -620,14 +620,14 @@ function App() {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-              Não Deixe Seu Sucesso para Depois
+              Não deixe seu sucesso para depois
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Comece a Operar com Inteligência Hoje!
+              Comece a operar com inteligência hoje!
             </p>
             <p className="text-lg text-gray-300 mb-12 max-w-3xl mx-auto">
-              Liberte-se da Análise Manual e Tenha Sinais de Trade de Alta Qualidade Entregues 
-              Diretamente no Seu Telegram. Seja um Trader Mais Inteligente, Rápido e Lucrativo!
+              Liberte-se da análise manual e tenha sinais de trade de alta qualidade entregues 
+              diretamente no seu Telegram. Seja um trader mais inteligente, rápido e lucrativo!
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
@@ -648,7 +648,7 @@ function App() {
             </div>
 
             <p className="text-sm text-gray-400 mt-8">
-              Aja agora! As vagas são limitadas e a oferta especial não durará para sempre.
+              Garanta sua vaga agora! As vagas são limitadas e a oferta especial não durará para sempre.
             </p>
           </motion.div>
         </div>
