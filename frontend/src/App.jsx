@@ -595,7 +595,7 @@ function App() {
               </CardHeader>
               <CardContent className="text-center">
                 <p className="text-gray-300 text-lg mb-6">
-                  Com mais de 10 anos de experiência no mercado financeiro e expertise em trading de futuros, 
+                  Com mais de 11 anos de experiência no mercado financeiro e expertise em trading de futuros, 
                   análise técnica avançada e inteligência artificial. Ao longo de sua carreira, gerenciou 
                   portfólios que geraram milhões em resultados para investidores.
                 </p>
