@@ -110,11 +110,5 @@ landing-page/
 
 ## 👨‍💻 Autor
 
-Desenvolvido por [Seu Nome](https://www.linkedin.com/in/seuperfil)  
-📩 Contato: seuemail@exemplo.com
-
----
-
-## 📄 Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
+Desenvolvido por Jefferson Bruno(https://www.linkedin.com/in/jbsoousal)  
+📩 Contato: bruunosoousaa@gmail.com
